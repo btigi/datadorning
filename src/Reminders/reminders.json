@@ -1,0 +1,35 @@
+﻿{
+  "ReminderInfo": [
+    {
+      "Name": "Example birthday'",
+      "Date": "2025-01-02",
+      "EventType": "annual",
+      "notificationOffsets": [
+        {
+          "offset": 14
+        },
+        {
+          "offset": 7
+        },
+        {
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "Name": "Waste bin (GREEN)",
+      "Date": "2024-12-31",
+      "EventType": "weekly"
+    },
+    {
+      "Name": "Recycling bin (GREY)",
+      "Date": "2025-01-07",
+      "EventType": "weekly"
+    },
+    {
+      "Name": "Grocery order",
+      "Date": "2025-01-01",
+      "EventType": "weekly"
+    }
+  ]
+}

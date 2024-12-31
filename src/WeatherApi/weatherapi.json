@@ -1,0 +1,6 @@
+﻿{
+  "BaseAddress": "https://api.weatherapi.com/v1/",
+  "ApiKey": "ADD_API_KEY_HERE",
+  "Days": 1,
+  "Location": "ADD_LOCATION_HERE"
+}
