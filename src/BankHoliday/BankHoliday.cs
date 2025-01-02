@@ -30,9 +30,15 @@ namespace BankHoliday
                 if (nextBankHoliday != null)
                 {
                     var days = nextBankHoliday.Date.DayNumber - DateOnly.FromDateTime(DateTime.Today).DayNumber;
-                    var daysDescription = days == 1 ? "day" : "days";
+                    var text = "";
+                    text = days switch
+                    {
+                        0 => "today",
+                        1 => $"in 1 day",
+                        _ => $"in {days} days",
+                    };
                     printer.Append($"Bank Holiday");
-                    printer.Append($"  {nextBankHoliday.Title} in {days} {daysDescription}");
+                    printer.Append($"  {nextBankHoliday.Title} {text}");
                 }
             }
         }

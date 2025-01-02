@@ -48,7 +48,7 @@ namespace Reminders
                             printer.Append($"Reminders");
                             printedIntro = true;
                         }
-                        printer.Append($"  {annualEvent} in {offset} days");
+                        printer.Append($"  {annualEvent.Name} in {offset} days");
                     }
                 }
             }
